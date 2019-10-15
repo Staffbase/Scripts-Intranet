@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const faker = require('faker');
 
 const generateRandomNewPageName = () => {
-    return `${uniqueNamesGenerator({length: 1})} ${faker.random.word()} channel`
+    return `${uniqueNamesGenerator({length: 1})} ${faker.random.word()}`
 };
 
 const createPage = async (spaceId) => {
